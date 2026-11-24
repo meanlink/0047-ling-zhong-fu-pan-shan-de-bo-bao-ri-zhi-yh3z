@@ -5,3 +5,20 @@
 .oscillator span:hover{scale:1.35;}
 .deviation ul,.docket dl{display:flex;gap:1rem;padding:0;list-style:none;}
 .docket dd{margin-left:0;font:600 clamp(1rem,2.3vw,1.7rem) "Martian Mono",monospace;}
+
+/* 夜段借用、待复核与来源作废（solo-2611） */
+.borrow-tag,.manual-tag{display:block;margin-top:.35rem;color:var(--s-muted);font-size:.82rem;font-weight:400;}
+.borrow-tag strong{color:var(--s-accent);}
+.borrow-line{padding:.55rem .7rem;border-left:3px solid var(--s-accent);background:color-mix(in srgb,var(--s-accent) 8%,var(--s-panel));}
+.borrow-hint{font-size:.85rem;color:var(--s-muted);}
+.review-warning{padding:.6rem .75rem;border:1px solid var(--s-error);color:var(--s-error);background:color-mix(in srgb,var(--s-error) 7%,var(--s-panel));}
+.docket.is-pending{border-color:var(--s-error);}
+.docket.is-voided{opacity:.86;}
+.status-chip.pending_review,.status-chip.review_pending{border-color:var(--s-error);color:var(--s-error);font-weight:700;}
+.status-chip.voided{text-decoration:line-through;color:var(--s-muted);}
+.status-chip.borrowed{border-color:var(--s-accent);color:var(--s-accent);}
+.status-chip.done{border-color:var(--s-ok);color:var(--s-ok);}
+.archived-receipt{margin-top:1rem;padding:.8rem .9rem;border:1px dashed var(--s-line);}
+.archived-receipt h3{font-size:1rem;margin-bottom:.4rem;}
+button.danger{border-color:var(--s-error);background:var(--s-error);color:var(--s-onaccent);margin-top:.6rem;}
+#void-sheet{margin-top:1.1rem;padding-top:.9rem;border-top:1px solid var(--s-line);display:grid;gap:.45rem;}
