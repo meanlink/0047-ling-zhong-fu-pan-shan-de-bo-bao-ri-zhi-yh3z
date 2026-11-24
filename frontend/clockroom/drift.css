@@ -1,0 +1,7 @@
+.deviation,.docket{margin-bottom:.9rem;background:var(--s-panel);padding:1.1rem;border-bottom:1px solid var(--s-line);}
+.deviation header,.docket header{display:flex;justify-content:space-between;align-items:baseline;gap:.7rem;}
+.oscillator{position:relative;height:68px;background:repeating-linear-gradient(to right,var(--s-line) 0 1px,transparent 1px 12%);border-block:1px solid var(--s-line);}
+.oscillator span{position:absolute;width:11px;height:11px;border-radius:100%;background:var(--s-accent);transition:scale .2s cubic-bezier(.1,.8,.2,1);}
+.oscillator span:hover{scale:1.35;}
+.deviation ul,.docket dl{display:flex;gap:1rem;padding:0;list-style:none;}
+.docket dd{margin-left:0;font:600 clamp(1rem,2.3vw,1.7rem) "Martian Mono",monospace;}

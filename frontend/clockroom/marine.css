@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700&family=Martian+Mono:wght@400;600&display=swap');
+:root{--s-page:oklch(24% .031 178);--s-panel:oklch(30% .035 176);--s-ink:oklch(93% .034 121);
+ --s-muted:oklch(82% .051 147);--s-accent:oklch(80% .110 97);--s-onaccent:oklch(24% .031 178);--s-line:oklch(51% .043 165);
+ --s-error:oklch(75% .13 34);--s-ok:oklch(79% .075 143);--s-display:"Martian Mono","Noto Serif SC",serif;
+ --s-body:"Barlow Semi Condensed","Noto Sans SC",sans-serif;}
+.masthead{border-top-width:8px;border-top-style:double;}
+.clock-head{padding:1.3rem 0 .9rem;margin-bottom:1.1rem;border-bottom:1px solid var(--s-line);}
+.clock-head p{color:var(--s-muted);margin:0;}
+.clock-layout{display:grid;grid-template-columns:minmax(0,3.2fr) minmax(235px,1fr);gap:1.25rem;}
+.clock-layout aside{align-self:start;padding:1.1rem;border:1px solid var(--s-line);border-left:5px solid var(--s-accent);background:var(--s-panel);}
+.clock-layout form{display:grid;gap:.55rem;margin:.8rem 0;}
+.log-table{overflow:auto;}
+.log-table table{white-space:nowrap;}
+.log-table small{display:block;}
+@media(max-width:767px){.clock-layout{grid-template-columns:1fr;}}

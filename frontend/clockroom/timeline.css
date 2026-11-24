@@ -1,0 +1,7 @@
+.clockline{background:var(--s-panel);padding:1rem 1.2rem;border-bottom:1px solid var(--s-line);margin-bottom:.9rem;}
+.clockline h2{display:flex;justify-content:space-between;gap:.8rem;align-items:baseline;}
+.scale{display:flex;margin-top:.8rem;height:42px;font-weight:650;}
+.scale span{padding:.55rem .65rem;}
+.diurnal{background:var(--s-accent);color:var(--s-onaccent);}
+.nocturnal{background:oklch(38% .044 169);border:1px solid var(--s-line);}
+.axis{display:flex;justify-content:space-between;gap:.3rem;margin-top:.45rem;font:400 clamp(.65rem,1.4vw,.9rem) "Martian Mono",monospace;}
